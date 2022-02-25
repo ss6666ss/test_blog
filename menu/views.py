@@ -6,4 +6,3 @@ def index(request):
         'title':'menu'
     }
     return render(request, 'menu/index.html', params)
-    

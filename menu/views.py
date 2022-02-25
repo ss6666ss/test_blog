@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 def index(request):
     params = {
-        'title':'CalcPlus'
+        'title':'menu'
     }
-    return render(request, 'calcplus/index.html', params)
+    return render(request, 'menu/index.html', params)
     
